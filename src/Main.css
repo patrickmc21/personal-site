@@ -1,0 +1,43 @@
+.App-header {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  background-image: url('images/background5.jpg');
+  background-size: cover;
+  box-shadow: 0px 5px 20px #181914;
+}
+
+.name-container {
+  padding: 15px 0 0 20px;
+  width: 30%;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.name {
+  color: #FAFAFA;
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+}
+
+.job-title {
+  color: #FAFAFA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+
+.nav-container {
+  padding: 30px 0 0 300px;
+  width: 70%;
+  box-sizing: border-box;
+  color: #FAFAFA;
+  background-color: rgba(0,0,0, 0.5);
+  font-size: 24px;
+}
+
+.nav-container a {
+  color: #FAFAFA;
+}
+
+.nav-container .active-nav {
+  border: 1px solid #FAFAFA;
+}

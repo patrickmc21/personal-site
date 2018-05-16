@@ -1,0 +1,26 @@
+.nav-wrapper {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-btn {
+  padding: 5px;
+  height: 36px;
+  width: 120px;
+  box-sizing: border-box;
+  color: #010101;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-btn:hover {
+  text-decoration: underline;
+}
+
+.active-nav {
+  border: 1px solid #000000;
+  border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+.about-container {
+  padding-top: 100px;
+  margin: auto;
+  width: 70%;
+}
+
+.greeting {
+  margin: 0 0 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+}
+
+.about,
+.contact {
+  margin: 10px 0 20px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  line-height: 36px;
+}

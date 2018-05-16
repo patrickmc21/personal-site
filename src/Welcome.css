@@ -1,0 +1,41 @@
+.image-container {
+  height: 600px;
+  width: 100vw;
+  background: url('./images/background3.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.image-overlay {
+  padding-top: 200px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.welcome__name-container {
+  margin: auto;
+  height: 300px;
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  color: #FAFAFA;
+}
+
+.welcome--name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+}
+
+.welcome--job-title {
+  font-size: 48px;
+}
+
+.welcome--nav {
+  padding-top: 30px;
+  margin: auto;
+  width: 60%;
+  font-size: 32px;
+}
+
