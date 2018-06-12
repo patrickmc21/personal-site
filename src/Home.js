@@ -10,7 +10,6 @@ const Home = () => {
 
   return (
     <section className='about-container'>
-      <h3 className="greeting">Hello!</h3>
       <p className='about'>
         As a developer, I am constantly searching out
         better, more efficient ways of solving a problem. I
