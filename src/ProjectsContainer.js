@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import projects from './projects.json';
+import './ProjectsContainer.css';
 
 const ProjectsContainer = () => {
 

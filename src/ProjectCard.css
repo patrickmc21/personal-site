@@ -1,0 +1,96 @@
+.project-card {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 35px 500px 100% 100px;
+  grid-column-gap: 5%;
+  grid-row-gap: 10px;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.project-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.project-img {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3; 
+  height: 100%; 
+  width: 100%;
+}
+
+.project-goals-container,
+.project-overview-container {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding: 10px;
+  height: 100%; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.project-goals-container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 100%; 
+  width: 100%;
+}
+
+.project-overview-container {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  height: 100%; 
+  width: 100%;
+}
+
+.project-goals-header,
+.project-overview-header {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.project-repo,
+.project-live {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border: 1px solid #010101;
+  border-radius: 15px;
+  padding: 20px;
+  margin: auto;
+  height: 60px;
+  width: 40%; 
+  box-sizing: border-box;
+  color: #010101; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.project-repo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.project-live {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.project-repo:hover,
+.project-live:hover {
+  box-shadow: 0px 0px 3px 1px #010101;
+  text-decoration: underline;
+}
