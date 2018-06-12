@@ -32,6 +32,45 @@ const Home = () => {
         </a>
           .
       </p>
+      <p className='skills'>Skills:</p>
+      <ul className='skill-list'>
+        <li className='skill-item'>
+          React/Redux/Router
+        </li>
+        <li className='skill-item'>
+          JavaScript
+        </li>
+        <li className='skill-item'>
+          jQuery
+        </li>
+        <li className='skill-item'>
+          Node
+        </li>
+        <li className='skill-item'>
+          Express
+        </li>
+        <li className='skill-item'>
+          Knex
+        </li>
+        <li className='skill-item'>
+          Test Driven Development
+        </li>
+        <li className='skill-item'>
+          Mocha/Chai/Jest/Enzyme
+        </li>
+        <li className='skill-item'>
+          Continuous Integration
+        </li>        
+        <li className='skill-item'>
+          HTML5/WAI-ARIA
+        </li>
+        <li className='skill-item'>
+          CSS3/SASS
+        </li>
+        <li className='skill-item'>
+          Responsive Web Design
+        </li>
+      </ul>
     </section>
   )
 };
