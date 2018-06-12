@@ -41,3 +41,7 @@
 .nav-container .active-nav {
   border: 1px solid #FAFAFA;
 }
+
+.nav-container .active-nav:hover {
+  text-decoration: none;
+}
